@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e1e1e1;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  color: #666;
+}
+
+nav {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 4px;
+  border-bottom: 1px solid #ccc;
+  /* padding-bottom: 1rem; */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 123, 255, 0.1);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav img {
+  height: 40px;
+  margin-left: 0;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #00448c;
+}
+
+nav a:active {
+  font-weight: bold;
+}
+
+nav a:after {
+  color: blueviolet;
+}
+
+.hero-content{
+  text-align: center;
+        margin-top: 4rem;
+        padding: 2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column; /* Stack video and text vertically */
+  width: 100%;
+  overflow-x: hidden;
+   
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+   width: 90%;              /* leave space on the sides */
+  margin: 2rem auto;       /* center the hero and add top/bottom spacing */
+  border-radius: 20px;     /* optional: rounded corners for a softer look */
+  overflow: hidden;        /* ensures video doesn’t spill outside */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  color: #013A38; /* readable color */
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+.foot {
+  border-top: 1px solid #585858;
+  padding: 2rem;
+  text-align: center;
+ 
+  color: white; 
+   background-color: rgba(44, 2, 143, 1); 
+
+
+}
+
+.foot p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+/* projects */
+.projects-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #013A38;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #011F3A;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-buttons {
+  margin: 1rem 0 1.5rem;
+}
+
+.btn,
+.btn-outline {
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn {
+  background-color: #013A38;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #011F3A;
+}
+
+.btn-outline {
+  border: 2px solid #013A38;
+  color: #013A38;
+}
+
+.btn-outline:hover {
+  background-color: #013A38;
+  color: white;
+}
