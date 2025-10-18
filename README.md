@@ -1,16 +1,81 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React portfolio website** showcasing my projects, skills, and background.  
+Built using **React**, **Vite**, and **React Router**, this website demonstrates both single-page and multi-page navigation for an engaging experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Hero section with a background video
+- Client-side navigation using React Router
+- Projects section to highlight my work
+- About and Contact pages
+- Styled with CSS for a clean, professional look
+- Built with Vite for fast development and build times
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Component-based UI library
+- **Vite** – Lightning-fast build tool
+- **React Router DOM** – Client-side routing
+- **CSS** – Custom styles and layout
+
+---
+
+## Project Structure
+
+src/<br>
+├── components/<br>
+│ ├── Footer.jsx<br>
+│ ├── Hero.jsx<br>
+│ └── proj.jsx<br>
+├── pages/<br>
+│ ├── Home.jsx<br>
+│ ├── About.jsx<br>
+│ ├── Projects.jsx<br>
+│ └── Contact.jsx<br>
+├── App.jsx<br>
+├── App.css<br>
+├── main.jsx<br>
+└── index.css<br>
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/react-portfolio.git
+   cd react-portfolio
+
+   ```
+
+2. **Install dependencies**
+
+3. **npm install**
+
+4. **Start the development server**
+
+5. **npm run dev**
+
+6. **Open your browser and visit http://localhost:5173**
+
+<!-- ## Preview
+
+(Add a screenshot or short description of your home page once ready) -->
+
+## License
+
+This project is open-source under the MIT License.
+
+## Contact
+
+Feel free to reach out if you'd like to collaborate or learn more about my work.
+
+Email: 7sundayesther@gmail.com
+
+<!-- Portfolio: my-portfolio-link.com -->
